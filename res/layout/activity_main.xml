@@ -1,0 +1,377 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.06" >
+
+            <Button
+                android:id="@+id/ButtonA"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light1"
+                android:onClick="onClick"
+                android:text="A"
+                android:textColorHint="#ff0000"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonB"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light10"
+                android:onClick="onClick"
+                android:text="B"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light26"
+                android:onClick="onClick"
+                android:text="C"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonD"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light21"
+                android:onClick="onClick"
+                android:text="D"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonE"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light14"
+                android:onClick="onClick"
+                android:text="E"
+                android:textSize="@dimen/textSizeLetter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.06" >
+
+            <Button
+                android:id="@+id/ButtonF"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light19"
+                android:onClick="onClick"
+                android:text="F"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonG"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light2"
+                android:onClick="onClick"
+                android:text="G"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonH"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light11"
+                android:onClick="onClick"
+                android:text="H"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonI"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light7"
+                android:onClick="onClick"
+                android:text="I"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonJ"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light18"
+                android:onClick="onClick"
+                android:text="J"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.06" >
+
+            <Button
+                android:id="@+id/ButtonK"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light6"
+                android:onClick="onClick"
+                android:text="K"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonL"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light15"
+                android:onClick="onClick"
+                android:text="L"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonM"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light20"
+                android:onClick="onClick"
+                android:text="M"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonN"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light12"
+                android:onClick="onClick"
+                android:text="N"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonO"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:onClick="onClick"
+                android:text="O"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.06" >
+
+            <Button
+                android:id="@+id/ButtonP"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light17"
+                android:onClick="onClick"
+                android:text="P"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonQ"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light8"
+                android:onClick="onClick"
+                android:text="Q"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonR"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light16"
+                android:onClick="onClick"
+                android:text="R"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonS"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light4"
+                android:onClick="onClick"
+                android:text="S"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light13"
+                android:onClick="onClick"
+                android:text="T"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.06" >
+
+            <Button
+                android:id="@+id/ButtonU"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light9"
+                android:onClick="onClick"
+                android:text="U"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonV"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light23"
+                android:onClick="onClick"
+                android:text="V"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonW"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light3"
+                android:onClick="onClick"
+                android:text="W"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonX"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light16"
+                android:onClick="onClick"
+                android:text="X"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ButtonY"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light24"
+                android:onClick="onClick"
+                android:text="Y"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.06" >
+
+            <Button
+                android:id="@+id/buttonZ"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.20"
+                android:background="@drawable/btn_default_holo_light5"
+                android:onClick="onClick"
+                android:text="Z"
+                android:textSize="@dimen/textSizeLetter"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btPTBR"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="0.25"
+                android:background="@drawable/ptbr"
+                android:onClick="onClickSelectLanguage" />
+
+            <Button
+                android:id="@+id/btENEN"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="0.25"
+                android:background="@drawable/enen"
+                android:onClick="onClickSelectLanguage" />
+
+            <Button
+                android:id="@+id/btESES"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:layout_weight="0.25"
+                android:background="@drawable/eses"
+                android:onClick="onClickSelectLanguage" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>
